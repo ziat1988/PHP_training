@@ -15,7 +15,7 @@ services:
     container_name: phpdocker-nginx
     restart: always
     ports:
-      - 8002:80
+      - 80:80
     volumes:
       - ../src:/var/www
       - ./nginx:/etc/nginx/conf.d

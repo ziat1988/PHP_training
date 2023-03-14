@@ -1,7 +1,10 @@
-#### The exercise for the PHP course "Learn PHP The Right Way" lesson 2.1.
+Test from https://github.com/daveh/php-mvc
 
-https://youtu.be/I_9-xWmkh28
+- Twig template in MVC
+- Route with htaccess rewrite rule
+- dynamic route with :
+```php
+$router->add('{controller}/{action}');
+```
 
----
-#### Course Playlist
-https://www.youtube.com/watch?v=sVbEyFZKgqk&list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-
+So url must be for example http://localhost/contact/index with c
