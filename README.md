@@ -7,4 +7,4 @@ Test from https://github.com/daveh/php-mvc
 $router->add('{controller}/{action}');
 ```
 
-So url must be for example http://localhost/contact/index with c
+So url must be for example http://localhost/contact/index with controller Contact and indexAction
